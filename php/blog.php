@@ -10,7 +10,7 @@
         <div class="row d-flex">
             <div class="col-md-4 ftco-animate">
                 <div class="blog-entry">
-                    <a href="blog-single.php" class="block-20" style="background-image: url('images/blog/blog1.jpg');">
+                    <a href="blog-single.php#post1" class="block-20" style="background-image: url('images/blog/blog1.jpg');">
                     </a>
                     <div class="text d-block">
                         <div class="meta mb-3">
@@ -27,7 +27,7 @@
             <!-- second blog post  -->
             <div class="col-md-4 ftco-animate">
                 <div class="blog-entry">
-                    <a href="blog-single.php" class="block-20" style="background-image: url('images/blog/blog2.jpg');">
+                    <a href="blog-single.php#post2" class="block-20" style="background-image: url('images/blog/blog2.jpg');">
                     </a>
                     <div class="text d-block">
                         <div class="meta mb-3">
@@ -44,7 +44,7 @@
             <!-- third blog post  -->
             <div class="col-md-4 ftco-animate">
                 <div class="blog-entry">
-                    <a href="blog-single.php" class="block-20" style="background-image: url('images/blog/blog3.jpg');">
+                    <a href="blog-single.php#post3" class="block-20" style="background-image: url('images/blog/blog3.jpg');">
                     </a>
                     <div class="text d-block">
                         <div class="meta mb-3">

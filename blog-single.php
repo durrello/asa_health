@@ -13,8 +13,8 @@ include "php/headerContact.php";
       <ul class="navbar-nav nav ml-auto">
         <li class="nav-item"><a href="index.php#home-section" class="nav-link"><span>Home</span></a></li>
         <li class="nav-item"><a href="index.php#about-section" class="nav-link"><span>About</span></a></li>
-        <li class="nav-item"><a href="index.php#department-section" class="nav-link"><span>Department</span></a></li>
-        <li class="nav-item"><a href="index.php#doctor-section" class="nav-link"><span>Doctors</span></a></li>
+        <li class="nav-item"><a href="index.php#department-section" class="nav-link"><span>What We do</span></a></li>
+        <li class="nav-item"><a href="index.php#how_we_work" class="nav-link"><span>How We Work</span></a></li>
         <li class="nav-item"><a href="index.php#blog-section" class="nav-link"><span>Blog</span></a></li>
         <li class="nav-item"><a href="index.php#contact-section" class="nav-link"><span>Contact</span></a></li>
       </ul>
@@ -28,7 +28,7 @@ include "php/headerContact.php";
     <div class="row no-gutters slider-text align-items-end justify-content-start">
       <div class="col-md-9 ftco-animate pb-4">
         <h1 class="mb-3 bread">Blog Details</h1>
-        <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Blog Single <i class="ion-ios-arrow-forward"></i></span></p>
+        <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Blog Posts <i class="ion-ios-arrow-forward"></i></span></p>
       </div>
     </div>
   </div>
@@ -42,48 +42,49 @@ include "php/headerContact.php";
         <!-- first post  -->
         <div id="post1">
           <h2 class="mb-3"><strong>#1. Breast cancer in young women</strong></h2>
+
+          <div style="overflow:hidden; width:100%">
+            <img src="images/blog/blog1.jpg" alt="" style="width: 400px; float:left;">
+            <p>
+              Any diagnosis of breast cancer is difficult, but when you’re under age 50,
+              you can add surprise and shock to the list of reactions. While breast cancer is
+              rare in younger women, the disease can and sometimes does strike early.
+              The Centers for Disease Control and Prevention (CDC) estimates that 11 percent of new cases of
+              breast cancer occur in women 45 and under. Even women in their twenties can develop breast cancer,
+              though the odds are relatively low (about one in 1,500, according to the American Cancer Society).
+            </p>
+          </div>
           <p>
-            Any diagnosis of breast cancer is difficult, but when you’re under age 50,
-            you can add surprise and shock to the list of reactions. While breast cancer is
-            rare in younger women, the disease can and sometimes does strike early.
-            <p>
-              <p>
-                The Centers for Disease Control and Prevention (CDC) estimates that 11 percent of new cases of breast cancer occur in women 45 and under. Even women in their twenties can develop breast cancer, though the
-                odds are relatively low (about one in 1,500, according to the American Cancer Society).
-              </p>
-              <img src="images/blog/blog1.jpg" alt="" class="img-fluid">
-            </p>
-            <p>
-              <h4>
-                <strong>Are you at risk?</strong>
-              </h4>
-              <p>Certain factors increase the likelihood of a breast cancer diagnosis before you’re 45.</p>
-              <ul>
-                <li>Family history of breast or ovarian cancer before 45 in first-degree relatives (mother, sister).</li>
-                <li>Genetics. Mutations in the breast-cancer genes BRCA1 and/or BRCA2.</li>
-                <li>Heritage, including women of Ashkenazi Jewish descent.</li>
-                <li>Radiation exposure in childhood or adolescence.</li>
-              </ul>
-            </p>
-            <p>
-              <h4> <strong>Reducing breast cancer risk</strong> </h4>
-              Talk to your doctor if you’re young and concerned about a heightened risk of breast cancer. Your doctor may recommend seeing a genetic counselor to learn more about screening for breast cancer gene mutations.
-              In some cases, it might be smart to start getting mammograms earlier.
-            </p>
+            <h4>
+              <strong>Are you at risk?</strong>
+            </h4>
+            <p>Certain factors increase the likelihood of a breast cancer diagnosis before you’re 45.</p>
+            <ul>
+              <li>Family history of breast or ovarian cancer before 45 in first-degree relatives (mother, sister).</li>
+              <li>Genetics. Mutations in the breast-cancer genes BRCA1 and/or BRCA2.</li>
+              <li>Heritage, including women of Ashkenazi Jewish descent.</li>
+              <li>Radiation exposure in childhood or adolescence.</li>
+            </ul>
+          </p>
+          <p>
+            <h4> <strong>Reducing breast cancer risk</strong> </h4>
+            Talk to your doctor if you’re young and concerned about a heightened risk of breast cancer. Your doctor may recommend seeing a genetic counselor to learn more about screening for breast cancer gene mutations.
+            In some cases, it might be smart to start getting mammograms earlier.
+          </p>
         </div>
 
         <!-- second post  -->
         <div id="post2">
           <h2 class="mb-3 mt-5"><strong>#2. Blood Screenings How much is too much to prevent Hepatitis C?</strong></h2>
-          <p>With the recent introduction of Solvaldi and Olysio as high efficacy treatment
-            options for newly acquired cases of the hepatitis C virus (HCV), now is an important
-            time to visit the hepatitis C landscape on the African continent. The global prevalence of
-            hepatitis C is currently estimated at 3%.Sub-Saharan Africa is estimated to have hepatitis C
-            prevalence between 0-14 percent. There is a dearth of data available on HCV in Africa and this
-            lack of information is due to low reporting rates and inefficient surveillance.</p>
-          <p>
-            <img src="images/blog/blog2.jpg" alt="" class="img-fluid">
-          </p>
+          <div style="overflow:hidden; width:100%">
+            <img src="images/blog/blog2.jpg" alt="" style="width: 300px; float:right">
+            <p>With the recent introduction of Solvaldi and Olysio as high efficacy treatment
+              options for newly acquired cases of the hepatitis C virus (HCV), now is an important
+              time to visit the hepatitis C landscape on the African continent. The global prevalence of
+              hepatitis C is currently estimated at 3%.Sub-Saharan Africa is estimated to have hepatitis C
+              prevalence between 0-14 percent. There is a dearth of data available on HCV in Africa and this
+              lack of information is due to low reporting rates and inefficient surveillance.</p>
+          </div>
           <p>
             The cost of care associated with medications is high with little use for those chronically
             infected with the virus. Although the recent advent of both Solvaldi and Olysio are promising
@@ -105,21 +106,23 @@ include "php/headerContact.php";
             they’re a great resource for reproductive health, family planning, and STD information.
             They are well connected with communities, and distribute critical health information.”
           </p>
-          <p>
-            <img src="images/blog/blog3.jpg" alt="" class="img-fluid">
-          </p>
-          <p>
-            When Kaya Skye moved to the northern Mboro region of Senegal in 1996 to research topics in medical
-            anthropology, she found herself fascinated by the state of maternal health. She observed that
-            healthcare workers were being pushed to adopt western birthing practices, but the government-
-            sponsored training was not explaining the rationale for certain actions. For example, health
-            workers were taught how to take blood pressure, but not why it’s important or how high blood
-            pressure could affect a pregnant woman. “But these women are incredibly intelligent and capable
-            of understanding and doing so much more,” says Kaya. She also noticed that along with the
-            westernization of birth care, the more natural approach that had underpinned the work of local
-            midwives for centuries was being lost. Now, instead of natural births, midwives have “rushed births by
-            overusing drugs such as Pitocin,” said Kaya, “which has been a major source of infant mortalities.”
-          </p>
+
+          <div style="overflow:hidden; width:100%">
+            <img src="images/blog/blog3.jpg" alt="" style="width: 400px; float:left;">
+            <p>
+              When Kaya Skye moved to the northern Mboro region of Senegal in 1996 to research topics in medical
+              anthropology, she found herself fascinated by the state of maternal health. She observed that
+              healthcare workers were being pushed to adopt western birthing practices, but the government-
+              sponsored training was not explaining the rationale for certain actions. For example, health
+              workers were taught how to take blood pressure, but not why it’s important or how high blood
+              pressure could affect a pregnant woman. “But these women are incredibly intelligent and capable
+              of understanding and doing so much more,” says Kaya. She also noticed that along with the
+              westernization of birth care, the more natural approach that had underpinned the work of local
+              midwives for centuries was being lost. Now, instead of natural births, midwives have “rushed births by
+              overusing drugs such as Pitocin,” said Kaya, “which has been a major source of infant mortalities.”
+            </p>
+          </div>
+
           <!-- <p>Odit voluptatibus, eveniet vel nihil cum ullam dolores laborum, quo velit commodi rerum eum quidem pariatur! Quia fuga iste tenetur, ipsa vel nisi in dolorum consequatur, veritatis porro explicabo soluta commodi libero voluptatem similique id quidem? Blanditiis voluptates aperiam non magni. Reprehenderit nobis odit inventore, quia laboriosam harum excepturi ea.</p>
           <p>Adipisci vero culpa, eius nobis soluta. Dolore, maxime ullam ipsam quidem, dolor distinctio similique asperiores voluptas enim, exercitationem ratione aut adipisci modi quod quibusdam iusto, voluptates beatae iure nemo itaque laborum. Consequuntur et pariatur totam fuga eligendi vero dolorum provident. Voluptatibus, veritatis. Beatae numquam nam ab voluptatibus culpa, tenetur recusandae!</p>
           <p>Voluptas dolores dignissimos dolorum temporibus, autem aliquam ducimus at officia adipisci quasi nemo a perspiciatis provident magni laboriosam repudiandae iure iusto commodi debitis est blanditiis alias laborum sint dolore. Dolores, iure, reprehenderit. Error provident, pariatur cupiditate soluta doloremque aut ratione. Harum voluptates mollitia illo minus praesentium, rerum ipsa debitis, inventore?</p> -->
@@ -263,14 +266,14 @@ include "php/headerContact.php";
 
       <!-- sidebar  -->
       <div class="col-lg-4 sidebar ftco-animate">
-        <div class="sidebar-box">
+        <!-- <div class="sidebar-box">
           <form action="#" class="search-form">
             <div class="form-group">
               <span class="icon icon-search"></span>
               <input type="text" class="form-control" placeholder="Type a keyword and hit enter">
             </div>
           </form>
-        </div>
+        </div> -->
 
         <!-- recent section  -->
         <div class="sidebar-box ftco-animate">
@@ -318,6 +321,6 @@ include "php/headerContact.php";
 </section> <!-- .section -->
 
 <?php
-include "php/footer.php";
+include "footer.php";
 include "php/end.php";
 ?>
